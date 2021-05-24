@@ -9,7 +9,7 @@ use std::{thread, time::Duration};
 const WINDOW_WH: u32 = 1200;
 const BOARD_WH: usize = 100;
 const SLEEP_DUR: u64 = 30;
-const RAND_THRESHOLD: f64 = 0.4;
+const RAND_THRESHOLD: f64 = 0.5;
 
 fn update(board: &mut Vec<Vec<bool>>) {
 
